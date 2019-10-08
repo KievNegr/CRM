@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "SegoeSB";
+    src: url('SegoeUISemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Segoe";
+    src: url('SegoeUIRegular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe";
+    src: url('SegoeUIBold.ttf');
+    font-weight: Bold;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	overflow-x:  hidden;
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: rgb(210,223,237); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 51%, rgba(175,199,232,1) 62%, rgba(186,208,239,1) 75%, rgba(153,181,219,1) 88%, rgba(121,155,200,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(210,223,237,1)), color-stop(26%,rgba(200,215,235,1)), color-stop(51%,rgba(190,208,234,1)), color-stop(51%,rgba(166,192,227,1)), color-stop(62%,rgba(175,199,232,1)), color-stop(75%,rgba(186,208,239,1)), color-stop(88%,rgba(153,181,219,1)), color-stop(100%,rgba(121,155,200,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#login_0 {
+	width: 50%;
+	float: left;
+}
+
+#login_1 { 
+	width: 50%; 
+	float: left;
+	background: rgba(0, 0, 0, 0.07);
+}
+
+span {
+  font-size: 0.8125em;
+  font-family: Segoe;
+  color: #FFF;
+  margin: 7px 0 0 0;
+  float: left;
+}
+
+input[type="checkbox"] {
+	margin: 10px 5px 0 0;
+	float: left;
+}
+
+input[type="text"], input[type="password"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #5C5C5C;
+  width: 250px;
+  height: 35px;
+  padding: 0 10px 0 33px;
+  font-family: SegoeSB;
+  font-size: 1em;
+  color: #FFF;
+  margin: 5px 0 0 0;
+  background: transparent;
+}
+
+input[type="password"] {
+  background: url('http://crm/img/password.png') no-repeat 6px 10px transparent;
+}
+
+#email {
+  background: url('http://crm/img/email.png') no-repeat 6px 10px transparent;
+}
+
+#phone1 {
+  background: url('http://crm/img/phone_reg.png') no-repeat 6px 10px transparent;
+}
+
+#first_name, #last_name {
+  background: url('http://crm/img/username.png') no-repeat 6px 10px transparent;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: Segoe;
+}
+
+input[type="text"]::-moz-placeholder, input[type="password"]::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: Segoe;
+}
+
+input[type="text"]:-moz-placeholder, input[type="password"]::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: Segoe;
+}
+
+input[type="text"]:-ms-input-placeholder, input[type="password"]::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: Segoe;
+}
+
+input[type="submit"] {
+	border-radius: 5px;
+  width: 150px;
+  margin: 10px 60px;
+  padding: 5px 0px 5px 0px;
+  border: none;
+  font-size: 1em;
+  font-family: Segoe;
+  color: #FFF;
+  cursor: pointer;
+  background: rgba(8, 39, 119, 0.73);
+}
+
+p {
+	font-size: 0.875em;
+	color: #FFF;
+	font-family: 'Segoe';
+}
+
+a {
+	font-size: 1em;
+	color: #022a7f;
+	font-family: 'Segoe';
+}
